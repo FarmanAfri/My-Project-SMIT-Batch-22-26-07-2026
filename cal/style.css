@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(./images.jfif);
+    background-size: cover;
+
+}
+
+#main {
+    width: 8rem;
+    height: 13.6rem;
+    border: 1px black;
+    background-color: rgb(2, 1, 33);
+    margin-left: 23rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+#inp {
+    margin-left: 5px;
+    margin-top: 9px;
+    width: 7rem;
+    background-color: black;
+    border: none;
+    color: white;
+   
+
+}
+
+
+button {
+    margin: 2px 0px 10px 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    text-align: center;
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    box-shadow: 1px 0px 2px 0px rgba(255, 255, 255, 0.233);
+
+
+
+
+}
+ 
+#clea{
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    background-color: brown;
+    width: 3.8rem;
+    margin-left: 5px;
+    box-shadow: none;
+    
+}
+
+#add{
+    background-color: rgb(197, 6, 6);
+    border-radius: 1;
+    border: none;
+}
+
+#btn{
+    background-color: rgb(6, 203, 225) ;
+     border-radius: 1;
+    border: none;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    animation-name: change;
+    animation-iteration-count: infinite;
+
+}
+
+

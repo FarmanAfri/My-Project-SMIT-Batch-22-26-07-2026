@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+<div id="main">
+
+    
+    <div>
+        <input readonly="text" placeholder="0" id="inp">
+    </div>
+    <br>
+    <button id="clea" onclick="clea()">ClearAll</button>
+    
+    <div>
+        <button onclick="abc('9')">9</button>
+         <button onclick="abc('8')">8</button>
+          <button onclick="abc('7')">7</button>
+           <button onclick="abc('+')">+</button>
+    </div>
+     <div >
+        <button onclick="abc('6')">6</button>
+         <button onclick="abc('5')">5</button>
+          <button onclick="abc('4')">4</button>
+           <button onclick="abc('-')">-</button>
+    </div>
+     <div >
+        <button onclick="abc('3')">3</button>
+         <button onclick="abc('2')">2</button>
+          <button onclick="abc('1')">1</button>
+           <button onclick="abc('*')">*</button>
+    </div>
+     <div >
+        <button onclick="abc('0')">0</button>
+         <button id="add" onclick="add('=')">=</button>
+          <button id="btn" onclick="eq('x')">x</button>
+           
+    </div>
+
+</div>
+
+
+
+
+
+    <script src="cal.js"></script>
+</body>
+</html>

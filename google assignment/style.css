@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main{
+    background-color: rgb(247, 247, 247);
+     height: 100vh;
+    width: 100vw;
+}
+
+.cards{
+    height: 50%;
+    width: 70%;
+    position: absolute;
+    left: 14rem;
+    top: 8rem;
+    display: flex;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+/* section 1 */
+
+
+.left{
+width: 50%;
+height: 100%;
+color: rgb(0, 0, 0);
+display:inline;
+gap: 5px;
+ border-radius: 30px;
+}
+
+#img{
+    margin-left: 10px;
+    margin-top:30px;
+}
+
+#h1{
+    margin-left: 10px;
+}
+
+
+/* section 2 */
+
+
+.right{
+     width: 50%;
+height: 100%;
+/* background-color: #FFFFFF; */
+}
+
+
+.right-inp{
+ margin-top: 9rem;
+    padding: 2px;
+   
+}
+
+
+.right-inp>#inp{
+ width: 32rem;
+    height: 3rem;
+    border-radius: 4px;
+}
+
+
+/* Footer */
+
+.footer{
+     height: 50%;
+    width: 70%;
+   display: flex;
+   gap: 20px;
+   flex-direction: row;
+   justify-content: left;
+   position: relative;
+   left: 13rem;
+   
+
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#head-1{
+    font-size: 20px;
+    color: blue;
+ position: relative;
+    top: -70px;
+}
+
+.foot1 a{
+    text-decoration: none;
+}
+
+.btn button{
+    height: 40px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: blue;
+    position: relative;
+   top: -70px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .cards{
+        width: 90%;
+        left: 5%;
+        top: 5rem;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .left,
+    .right{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-inp{
+        margin-top: 2rem;
+    }
+
+    .right-inp #inp{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer{
+        width: 90%;
+        left: 5%;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .cards{
+        width: 95%;
+        left: 2.5%;
+        top: 2rem;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    #img{
+        width: 60px;
+        height: auto;
+    }
+
+    #h1{
+        font-size: 24px;
+    }
+
+    .right-inp{
+        margin-top: 1rem;
+    }
+
+    .right-inp #inp{
+        width: 100%;
+        height: 45px;
+    }
+
+    .right-inp h3{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .footer{
+        width: 95%;
+        left: 2.5%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .btn button{
+        width: 100%;
+        max-width: 200px;
+    }
+}
