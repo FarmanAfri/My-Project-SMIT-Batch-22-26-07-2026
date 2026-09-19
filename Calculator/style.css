@@ -36,10 +36,11 @@ body{
     top: 25px;
     left: 4px;
     border-radius: 5px;
-    background-color: #529ce5;
+  background-color: #39434D;
     color: white;
     border: none;
     font-size: 50px;
+    text-align: right;
 }
 
 #btns{
