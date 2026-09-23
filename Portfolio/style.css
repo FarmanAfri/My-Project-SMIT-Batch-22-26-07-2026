@@ -131,9 +131,9 @@ gap: 5px;
 }
 
 #left-About-me{
-width: 50%;
-height: 73%;
-/* border: 2px solid rgb(196, 195, 195); */
+width: 70%;
+height: 60%;
+/* border: 1px solid rgb(196, 195, 195); */
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -143,8 +143,8 @@ font-size: 20px;
 }
 
 #left-in-box{
-  width: 70%;
-  border: 1px solid wheat;
+  width: 85%;
+  /* border: 1px solid wheat; */
 
 }
 
@@ -211,36 +211,210 @@ h3 span {
 
 
 #right-pic-me #img{
-  width: 890px;
-  height: 500px;
+  width: 870px;
+  height: 450px;
   border: none;
- border-left: 2px solid rgba(0, 11, 25, 0.3);
+ border-left: 2px solid rgba(33, 89, 163, 0.3);
 }
 
 
+#sec-3{
+width: 100%;
+height: 242px;
+background-color: #021020;
+position: absolute;
+top: 500px;
+display: flex;
+gap: 20px;
+  /* border: 2px solid rgb(43, 215, 4); */
+}
+
+#about-me{
+ /* border: 1px solid wheat;  */
+height: 100%;
+width: 1000px;
+display: flex;
+gap: 5px;
+
+}
 
 
+#about-me #sec--3{
+  /* border: 1px solid rgb(154, 104, 12); */
+width: 50%;
+height: 240px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 15px;
+padding: 5px;
+}
+
+#sec--3 p{
+  color: white;
+}
+
+#sec--3 a{
+  width: 34%;
+  background-color: #1288FC;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+}
 
 
+.stats-section {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.stats-container {
+  width: 100%;
+  max-width: 900px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
 
+/* Cards */
+
+.stat-card {
+  width: 125px;
+  height: 90px;
+
+  border: 1px solid #0b2945;
+  border-radius: 10px;
+
+  background: rgba(3, 18, 35, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+align-items: center;
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  border-color: #008cff;
+  transform: translateY(-3px);
+}
 
 
+/* Icons */
+
+.icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+
+  fill: none;
+  stroke: #008cff;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
 
+/* Numbers */
+
+.stat-card h2 {
+  color: #dcecff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
 
 
+/* Text */
+
+.stat-card p {
+  color: #8190a3;
+  font-size: 9px;
+  white-space: nowrap;
+}
 
 
+/* Profile */
+
+.profile {
+  width: 108px;
+  height: 108px;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  border: 2px solid #007acc;
+
+  margin-left: 8px;
+
+  flex-shrink: 0;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
 
 
+/* Responsive */
 
+@media (max-width: 600px) {
 
+  .stats-container {
+    flex-wrap: wrap;
+  }
 
+  .profile {
+    margin-left: 0;
+  }
 
+}
 
+#sec-4{
+  width: 100%;
+height: 352px;
+background-color: #021020;
+display: flex;
+gap: 5px;
+padding: 4px;
+ /* border: 2px solid rgb(215, 130, 4);  */
+}
 
+#my-skill{
+   width: 50%;
+height: 340px;
+background-color: #021020;
+ /* border: 2px solid rgb(215, 130, 4);  */
+}
 
+#my-service{
+  width: 50%;
+height: 340px;
+background-color: #021020;
+ /* border: 2px solid rgb(215, 130, 4);  */
 
+}
 
+#sec-5{
 
+}
