@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+  background: linear-gradient(135deg, #000B19, #001F3F, #0c4e8c);
+}
+/* main */
+.main{
+    width: 300px;
+    height: 409px;
+    background-color: #39434D;
+    position: absolute;
+    left: 41%;
+    top: 20%;
+    border-radius: 10px;
+
+}
+
+/* main-body */
+
+#inp-T{
+    width: 298px;
+     height: 102px;
+    border:none;
+}
+
+#inp-T input{
+    width: 292px;
+    height: 60px;
+    position: absolute;
+    top: 25px;
+    left: 4px;
+    border-radius: 5px;
+  background-color: #39434D;
+    color: white;
+    border: none;
+    font-size: 50px;
+    text-align: right;
+}
+
+#btns{
+       width: 300px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+    
+}
+
+#box-1{
+/* background-color: bisque; */
+width: 293px;
+height: 50px;
+display: flex;
+gap: 15px;
+justify-content: center;
+padding: 4px;
+}
+
+#box-2{
+/* background-color: rgb(134, 73, 0); */
+width: 293px;
+height: 50px;
+display: flex;
+gap: 15px;
+justify-content: center;
+padding: 4px;
+}
+
+#box-3{
+/* background-color: bisque; */
+width: 293px;
+height: 50px;
+display: flex;
+gap: 15px;
+justify-content: center;
+padding: 4px;
+}
+#box-4{
+/* background-color: rgb(199, 255, 196); */
+width: 193px;
+height: 50px;
+display: flex;
+gap: 15px;
+justify-content: center;    
+padding: 4px;
+margin-right: 60px;
+
+}
+
+#box-5{
+/* background-color: rgb(199, 255, 196); */
+width: 287px;
+height: 50px;
+display: flex;
+gap: 15px;
+justify-content: center; 
+align-items: center;   
+padding: 7px;
+
+}
+
+button{
+    width: 50px;
+    height: 45px;
+    border-radius: 25px;
+       border: none;
+       color: white;
+       background-color: #39434D;
+       font-weight: 1000;
+       font-size: 30px;
+       cursor: pointer;
+}
+
+#equal{
+    background-color: red;
+    height: 95px;
+    border-radius: 2px;
+    border: none; 
+    margin-top: -59px;   
+}
+
+#zero{
+    width: 50px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    margin-top: -5px;
+}
+@media (max-width: 1024px)  {
+    .main{
+           width: 300px;
+    height: 409px;
+    /* background-color: #0080ff; */
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    border-radius: 10px;
+    }
+    
+}

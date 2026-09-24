@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Young+Serif&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+} 
+
+
+.bg-video {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;       
+}
+
+
+.my-table {
+  position: relative;  
+  z-index: 1;          
+  background: rgba(255, 255, 255, 0.8); 
+  margin: 50px auto;
+  padding: 10px;
+}
+
+
+
+#main {
+    width: 64%;
+    height: 95%;
+    border: none;
+    margin:35px 205px;
+
+
+
+}
+
+#h-2{
+    position: absolute;
+    left: 390px;
+    top: 35px;
+      opacity: 0.3;
+    color: rgb(217, 217, 217);
+   font-family: 'EB Garamond', serif;
+   font-size: 40px;
+   
+
+}
+
+td {
+
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    border: none solid black;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 25px;
+    
+}
+
+#td-1,#td-2,#td-3,#td-8,#td-9 {
+ empty-cells: hide;
+}
+
+
+
